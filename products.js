@@ -2,63 +2,63 @@ const products = document.querySelector('.all-product');
 
 const urls = [
     {
-        "img": "/assets/chanel n19.jpg",
+        "img": "/chanel n19.jpg",
         "brand": "Chanel",
         "name": "No. 19 EDP",
         "size": "1ml",
         "price": 3.00
     },
     {
-        "img": "/assets/angler muse.jpg",
+        "img": "/angler muse.jpg",
         "brand": "Mugler",
         "name": "Angel Muse (EDP)",
         "size": "1ml",
         "price": 3.00
     },
     { 
-        "img": "/assets/guerlainn.png",
+        "img": "/guerlainn.png",
         "brand": "Guerlain",
         "name": "Rose Barbare (2005)",
         "size": "1ml",
         "price": 8.00
     },
     { 
-        "img": "/assets/narciso.avif",
+        "img": "/narciso.avif",
         "brand": "Narciso Rodriguez",
         "name": "Narciso (EDP)",
         "size": "1ml",
         "price": 3.50
     },
     {
-        "img": "/assets/1.webp",
+        "img": "/1.webp",
         "brand": "Agent Provocateur",
         "name": "EDP",
         "size": "1ml",
         "price": 2.00
       },
       {
-        "img": "/assets/2.webp",
+        "img": "/2.webp",
         "brand": "Agent Provocateur",
         "name": "Cosmic",
         "size": "1ml",
         "price": 2.00
       },
       {
-        "img": "/assets/3.avif",
+        "img": "/3.avif",
         "brand": "Agent Provocateur",
         "name": "L Agent",
         "size": "1ml",
         "price": 3.00
       },
       {
-        "img": "/assets/4.jpg",
+        "img": "/4.jpg",
         "brand": "Bois 1920",
         "name": "Le Voluttuose La Vaniglia",
         "size": "1ml",
         "price": 3.00
       },
       {
-        "img": "/assets/5.jpg",
+        "img": "/5.jpg",
         "brand": "Bois 1920",
         "name": "Real Patchouly",
         "size": "1ml",
@@ -72,21 +72,21 @@ const urls = [
     //     "price": 3.00
     //   },
       {
-        "img": "/assets/7.jpg",
+        "img": "/7.jpg",
         "brand": "By Kilian",
         "name": "Fun Things Always Happen After Sunset",
         "size": "1ml",
         "price": 6.00
       },
       {
-        "img": "/assets/8.webp",
+        "img": "/8.webp",
         "brand": "Cacharel",
         "name": "Scarlett",
         "size": "1ml",
         "price": 3.00
       },
       {
-        "img": "/assets/9.jpeg",
+        "img": "/9.jpeg",
         "brand": "Carthusia",
         "name": "1681",
         "size": "1ml",
@@ -142,77 +142,77 @@ const urls = [
     //     "price": 3.00
     //   },
       {
-        "img": "/assets/18.webp",
+        "img": "/18.webp",
         "brand": "Jovoy Paris",
         "name": "Ambre Premiere",
         "size": "1ml",
         "price": 5.50
       },
       {
-        "img": "/assets/19.jpeg",
+        "img": "/19.jpeg",
         "brand": "Jul and Mad Paris",
         "name": "Aqua Sextius",
         "size": "1ml",
         "price": 10.00
       },
       {
-        "img": "/assets/20.jpg",
+        "img": "/20.jpg",
         "brand": "Olfattive Lab",
         "name": "MyLO",
         "size": "1ml",
         "price": 2.50
       },
       {
-        "img": "/assets/21.jpeg",
+        "img": "/21.jpeg",
         "brand": "Lalique",
         "name": "Amethyst",
         "size": "1ml",
         "price": 2.00
       },
       {
-        "img": "/assets/23.jpg",
+        "img": "/23.jpg",
         "brand": "Lancome",
         "name": "Oud Bouquet EDP (2014)",
         "size": "1ml",
         "price": 8.00
       },
       {
-        "img": "/assets/24.jpg",
+        "img": "/24.jpg",
         "brand": "L'Artisan Perfume",
         "name": "Al Oudh",
         "size": "1ml",
         "price": 3.50
       },
       {
-        "img": "/assets/25.jpg",
+        "img": "/25.jpg",
         "brand": "L'Artisan Perfume",
         "name": "Mure et Musc Extreme",
         "size": "1ml",
         "price": 3.00
       },
       {
-        "img": "/assets/26.webp",
+        "img": "/26.webp",
         "brand": "L'Artisan Perfume",
         "name": "Voleur de Roses",
         "size": "1ml",
         "price": 3.50
       },
       {
-        "img": "/assets/28.jpg",
+        "img": "/28.jpg",
         "brand": "Michael Kors",
         "name": "Midnight Shimmer",
         "size": "1ml",
         "price": 3.00
       },
       {
-        "img": "/assets/29.jpg",
+        "img": "/29.jpg",
         "brand": "Montale",
         "name": "Honey Aoud",
         "size": "1ml",
         "price": 3.00
       },
       {
-        "img": "/assets/30.png",
+        "img": "/30.png",
         "brand": "Montale",
         "name": "Orange Flowers",
         "size": "1ml",
@@ -233,84 +233,84 @@ const urls = [
     //     "price": 5.00
     //   },
       {
-        "img": "/assets/35.webp",
+        "img": "/35.webp",
         "brand": "Parle Moi de Parfum",
         "name": "Milky Musk 39",
         "size": "1ml",
         "price": 3.50
       },
       {
-        "img": "/assets/36.jpg",
+        "img": "/36.jpg",
         "brand": "Ramon Bejar",
         "name": "Elvish Musk",
         "size": "1ml",
         "price": 10.00
       },
       {
-        "img": "/assets/37.jpg",
+        "img": "/37.jpg",
         "brand": "The Beautiful Mind Series",
         "name": "Volume I Intelligence & Fantasy - EDP",
         "size": "1ml",
         "price": 4.50
       },
       {
-        "img": "/assets/38.jpeg",
+        "img": "/38.jpeg",
         "brand": "V Canto",
         "name": "Ricina",
         "size": "1ml",
         "price": 6.00
       },
       {
-        "img": "/assets/39.jpeg",
+        "img": "/39.jpeg",
         "brand": "Van Cleef & Arpels",
         "name": "First (EDP)",
         "size": "1ml",
         "price": 2.00
       },
       {
-        "img": "/assets/40.jpg",
+        "img": "/40.jpg",
         "brand": "Yves Saint Laurent",
         "name": "Opium EDP 2009",
         "size": "1ml",
         "price": 3.50
       },
       {
-        "img": "/assets/41.jpg",
+        "img": "/41.jpg",
         "brand": "Frapin",
         "name": "IF be R.K.",
         "size": "1ml",
         "price": 5.50
       },
       {
-        "img": "/assets/42.jpg",
+        "img": "/42.jpg",
         "brand": "Map Of The Heart",
         "name": "Pink Heart V 6",
         "size": "1ml",
         "price": 3.50
       },
       {
-        "img": "/assets/10.jpeg",
+        "img": "/10.jpeg",
         "brand": "Chopard",
         "name": "Love Chopard",
         "size": "1ml",
         "price": 2.50
       },
       {
-        "img": "/assets/22.jpeg",
+        "img": "/22.jpeg",
         "brand": "Lancome",
         "name": "Magie Noire",
         "size": "1ml",
         "price": 4.00
       },
       {
-        "img": "/assets/31.jpeg",
+        "img": "/31.jpeg",
         "brand": "Montale",
         "name": "Wild Pears",
         "size": "1ml",
         "price": 3.00
       },
       {
-        "img": "/assets/27.webp",
+        "img": "/27.webp",
         "brand": "Mark Buxton",
         "name": "Sexual Healing",
         "size": "1ml",

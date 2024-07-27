@@ -2,28 +2,28 @@ const products = document.querySelector('.products');
 
 const urls = [
     {
-        "img": "/assets/chanel n19.jpg",
+        "img": "/chanel n19.jpg",
         "brand": "Chanel",
         "name": "No. 19 EDP",
         "size": "1ml",
         "price": 3.00
     },
     {
-        "img": "/assets/angler muse.jpg",
+        "img": "/angler muse.jpg",
         "brand": "Mugler",
         "name": "Angel Muse (EDP)",
         "size": "1ml",
         "price": 3.00
     },
     { 
-        "img": "/assets/guerlainn.png",
+        "img": "/guerlainn.png",
         "brand": "Guerlain",
         "name": "Rose Barbare (2005)",
         "size": "1ml",
         "price": 8.00
     },
     { 
-        "img": "/assets/narciso.avif",
+        "img": "/narciso.avif",
         "brand": "Narciso Rodriguez",
         "name": "Narciso (EDP)",
         "size": "1ml",
